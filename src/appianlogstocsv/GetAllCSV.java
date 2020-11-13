@@ -26,7 +26,7 @@ public class GetAllCSV {
             System.setOut(out); //Sets teh printout to a file as opposed to the console
         
         for(int i = 0; i < filenames.size(); i++){
-            System.out.println(filenames.get(i) + " :"); //Has the hame print out before the logs in a CSV, (Can be commented out if names should be excluded)
+            System.out.println(filenames.get(i) + " :"); //Has the name print out before the logs in a CSV, (Can be commented out if names should be excluded)
             LogsToCSV.getCSVToPrint(filenames.get(i));
         }
     }
